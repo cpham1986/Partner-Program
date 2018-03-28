@@ -10,7 +10,7 @@ public class Sports
 {
     String n, s;
     int AVG, penalty;
-
+    Scanner input=new Scanner(System.in);
     /**
      * Constructor for objects of class Sports
      */
