@@ -1,10 +1,19 @@
 #BlueJ package file
+<<<<<<< HEAD
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=392
+editor.fx.0.y=40
+objectbench.height=155
+objectbench.width=760
+=======
 editor.fx.0.height=747
 editor.fx.0.width=818
 editor.fx.0.x=906
 editor.fx.0.y=323
 objectbench.height=136
 objectbench.width=758
+>>>>>>> a3f917a74dd93b7cd6061fa97dc154c172fd3ef0
 package.divider.horizontal=0.6
 package.divider.vertical=0.7027027027027027
 package.editor.height=331
@@ -14,7 +23,11 @@ package.editor.y=311
 package.frame.height=600
 package.frame.width=800
 package.numDependencies=0
+<<<<<<< HEAD
+package.numTargets=2
+=======
 package.numTargets=5
+>>>>>>> a3f917a74dd93b7cd6061fa97dc154c172fd3ef0
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
@@ -24,6 +37,23 @@ readme.width=47
 readme.x=10
 readme.y=10
 target1.height=50
+<<<<<<< HEAD
+target1.name=main
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=
+target1.width=80
+target1.x=90
+target1.y=10
+target2.height=50
+target2.name=Sports
+target2.showInterface=false
+target2.type=ClassTarget
+target2.typeParameters=
+target2.width=80
+target2.x=180
+target2.y=10
+=======
 target1.name=Hockey
 target1.showInterface=false
 target1.type=ClassTarget
@@ -58,3 +88,4 @@ target5.type=ClassTarget
 target5.width=80
 target5.x=330
 target5.y=30
+>>>>>>> a3f917a74dd93b7cd6061fa97dc154c172fd3ef0
