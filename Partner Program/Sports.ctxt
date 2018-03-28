@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Sports
-comment1.params=name\ sport
-comment1.target=Sports(java.lang.String,\ java.lang.String)
+comment1.params=name
+comment1.target=Sports(java.lang.String)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Sports\r\n
 comment2.params=attempt\ total
 comment2.target=int\ getAvg(int,\ int)
