@@ -13,7 +13,20 @@ public class main
         String name, sport;
         System.out.println("Enter the name of the athlete: ");
         name=input.nextLine();
-        System.out.println("Enter sport: ");
-        sport=input.nextLine();
+        do{
+            System.out.println("Enter sport: ");
+            sport=input.nextLine();
+        } while(sport.equalsIgnoreCase("hockey")!=false||sport.equalsIgnoreCase("football")!=false||sport.equalsIgnoreCase("basketball")!=false);
+        
+        
+        
+        
+        
+        
+        switch(sport){
+            case "hockey":;break;
+            case "football":;break;
+            case "basketball":;break;
+        }
     }
 }
