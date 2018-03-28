@@ -23,7 +23,7 @@ public class Football extends Sports
     {
         System.out.print("Enter total number of touchdowns");
         touchdowns = input.nextInt();
-        System.out.print("some questions about football goes here");
+        System.out.print("Enter number of yards gained");
         v2 = input.nextInt();
         System.out.print("some questions about football goes here");
         v3 = input.nextInt();

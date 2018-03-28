@@ -9,7 +9,7 @@ import java.util.*;
 public class main
 {
     public static void main(){
-        int start, tgames, sgames;
+        int start, tgames, sgames, shots, scored;
         Scanner input = new Scanner(System.in);
         String name, sport;
         Sports player = new Sports("", "");;
@@ -35,11 +35,14 @@ public class main
         tgames=input.nextInt();
         System.out.println("Enter the total games in the season: ");
         sgames=input.nextInt();
-
+        System.out.println("Enter total number of scoring attempts: ");
+        shots=input.nextInt();
+        System.out.println("Enter total number points scored: ");
+        scored=input.nextInt();
         
         System.out.println("Started in "+player.getAvg(start, sgames));
         System.out.println("Played in "+player.getAvg(tgames, sgames));
-        
+        System.out.println("Scoring percentage: "+player.getAvg(shots, scored));
 
     }
 }

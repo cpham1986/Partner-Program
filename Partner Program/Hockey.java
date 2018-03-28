@@ -22,7 +22,7 @@ public class Hockey extends Sports
     {
         System.out.print("Entered total number of goals");
         goals = input.nextInt();
-        System.out.print("some questions about hockey goes here");
+        System.out.print("Enter total number of assists");
         v2 = input.nextInt();
         System.out.print("some questions about hockey goes here");
         v3 = input.nextInt();
