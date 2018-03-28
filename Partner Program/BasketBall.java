@@ -24,7 +24,7 @@ public class BasketBall extends Sports
     {
         System.out.print("Enter total number of dunks");
         dunks = input.nextInt();
-        System.out.print("some questions about basketball goes here");
+        System.out.print("Enter total number of blocks");
         v2 = input.nextInt();
         System.out.print("some questions about basketball goes here");
         v3 = input.nextInt();
