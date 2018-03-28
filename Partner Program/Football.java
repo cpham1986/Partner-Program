@@ -13,9 +13,9 @@ public class Football extends Sports
     /**
      * Constructor for objects of class Football
      */
-    public Football()
+    public Football(String x, String y)
     {
-        
+        super(x,y);
     }
 
 

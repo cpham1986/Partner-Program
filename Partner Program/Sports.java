@@ -9,7 +9,7 @@ import java.util.*;
 public class Sports
 {
     String n, s;
-    int AVG, penalty;
+    int AVG, penalty, ps;
     Scanner input=new Scanner(System.in);
     /**
      * Constructor for objects of class Sports
@@ -24,8 +24,10 @@ public class Sports
         AVG=(int)(attempt/total);
         return AVG;
     }
-
-    
+    public int PartScore(int assist, int score)
+    {
+        return ps;
+    }
     
     
 }

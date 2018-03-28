@@ -8,20 +8,20 @@
 public class Hockey extends Sports
 {
     // instance variables - replace the example below with your own
-    private int v1, v2, v3;
+    private int goals, v2, v3;
 
     /**
      * Constructor for objects of class Hockey
      */
-    public Hockey()
+    public Hockey(String x, String y)
     {
-        
+        super(x,y);
     }
 
     public void questions()
     {
-        System.out.print("some questions about hockey goes here");
-        v1 = input.nextInt();
+        System.out.print("Entered total number of goals");
+        goals = input.nextInt();
         System.out.print("some questions about hockey goes here");
         v2 = input.nextInt();
         System.out.print("some questions about hockey goes here");

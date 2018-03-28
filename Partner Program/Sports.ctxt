@@ -5,4 +5,6 @@ comment1.target=Sports(java.lang.String,\ java.lang.String)
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Sports\r\n
 comment2.params=attempt\ total
 comment2.target=int\ getAvg(int,\ int)
-numComments=3
+comment3.params=assist\ score
+comment3.target=int\ PartScore(int,\ int)
+numComments=4

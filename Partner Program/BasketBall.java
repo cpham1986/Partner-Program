@@ -13,10 +13,10 @@ public class BasketBall extends Sports
     /**
      * Constructor for objects of class BasketBall
      */
-    public BasketBall()
+    public BasketBall(String x, String y)
     {
+        super(x,y);
         // initialise instance variables
-        x = 0;
     }
 
 

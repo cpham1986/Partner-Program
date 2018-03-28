@@ -15,5 +15,6 @@ public class main
         name=input.nextLine();
         System.out.println("Enter sport: ");
         sport=input.nextLine();
+        
     }
 }
