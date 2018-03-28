@@ -18,6 +18,8 @@ public class BasketBall extends Sports
         // initialise instance variables
         x = 0;
     }
+<<<<<<< HEAD
+=======
 
     public void questions()
     {
@@ -32,4 +34,5 @@ public class BasketBall extends Sports
     public void print(){
         System.out.print("print the thing");
     }
+>>>>>>> 69cb562053c29ea7bcd81442164754fa172e4268
 }

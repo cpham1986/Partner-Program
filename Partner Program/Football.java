@@ -18,6 +18,9 @@ public class Football extends Sports
         
     }
 
+<<<<<<< HEAD
+    
+=======
     public void questions()
     {
         System.out.print("Enter total number of touchdowns");
@@ -31,5 +34,6 @@ public class Football extends Sports
     public void print(){
         System.out.print("print the thing");
     }
+>>>>>>> 69cb562053c29ea7bcd81442164754fa172e4268
 }
 
