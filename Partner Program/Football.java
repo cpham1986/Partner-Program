@@ -18,7 +18,6 @@ public class Football extends Sports
         super(x,y);
     }
 
-
     public void questions()
     {
         System.out.print("Enter total number of touchdowns");
