@@ -12,7 +12,7 @@ public class main
         int start, tgames, sgames;
         Scanner input = new Scanner(System.in);
         String name, sport;
-        Sports player;
+        Sports player = new Sports("", "");;
         System.out.println("Enter the name of the athlete: ");
         name=input.nextLine();
 
@@ -23,7 +23,7 @@ public class main
             System.out.println("Enter sport: ");
             sport=input.nextLine();
         } while(sport.equalsIgnoreCase("hockey")!=false||sport.equalsIgnoreCase("football")!=false||sport.equalsIgnoreCase("basketball")!=false);
-        
+
         switch(sport){
             case "hockey": player= new Hockey(name, sport);break;
             case "football": player = new Football(name, sport);break;
@@ -31,12 +31,15 @@ public class main
         }
         System.out.println("Enter number of games started: ");
         start=input.nextInt();
-        System.out.println("Entered total number of games played int: ");
+        System.out.println("Entered total number of games played in: ");
         tgames=input.nextInt();
         System.out.println("Enter the total games in the season: ");
         sgames=input.nextInt();
-        
 
+        
+        System.out.println("Started in "+player.getAvg(start, sgames));
+        System.out.println("Played in "+player.getAvg(tgames, sgames));
+        
 
     }
 }
