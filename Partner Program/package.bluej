@@ -8,9 +8,15 @@ objectbench.width=760
 package.divider.horizontal=0.6
 package.divider.vertical=0.676
 package.editor.height=331
+<<<<<<< HEAD
 package.editor.width=670
 package.editor.x=156
 package.editor.y=156
+=======
+package.editor.width=652
+package.editor.x=399
+package.editor.y=311
+>>>>>>> 69cb562053c29ea7bcd81442164754fa172e4268
 package.frame.height=600
 package.frame.width=800
 package.numDependencies=0
@@ -39,3 +45,42 @@ target2.typeParameters=
 target2.width=80
 target2.x=180
 target2.y=10
+<<<<<<< HEAD
+=======
+=======
+target1.name=Hockey
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=80
+target1.x=160
+target1.y=10
+target2.height=50
+target2.name=main
+target2.showInterface=false
+target2.type=ClassTarget
+target2.width=80
+target2.x=70
+target2.y=10
+target3.height=50
+target3.name=Football
+target3.showInterface=false
+target3.type=ClassTarget
+target3.width=80
+target3.x=70
+target3.y=70
+target4.height=50
+target4.name=BasketBall
+target4.showInterface=false
+target4.type=ClassTarget
+target4.width=90
+target4.x=160
+target4.y=70
+target5.height=50
+target5.name=Sports
+target5.showInterface=false
+target5.type=ClassTarget
+target5.width=80
+target5.x=330
+target5.y=30
+>>>>>>> a3f917a74dd93b7cd6061fa97dc154c172fd3ef0
+>>>>>>> 69cb562053c29ea7bcd81442164754fa172e4268

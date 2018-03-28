@@ -8,7 +8,7 @@
 public class BasketBall extends Sports
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private int dunks, v2, v3;
 
     /**
      * Constructor for objects of class BasketBall
@@ -18,4 +18,21 @@ public class BasketBall extends Sports
         // initialise instance variables
         x = 0;
     }
+<<<<<<< HEAD
+=======
+
+    public void questions()
+    {
+        System.out.print("Enter total number of dunks");
+        dunks = input.nextInt();
+        System.out.print("some questions about basketball goes here");
+        v2 = input.nextInt();
+        System.out.print("some questions about basketball goes here");
+        v3 = input.nextInt();
+    }
+    
+    public void print(){
+        System.out.print("print the thing");
+    }
+>>>>>>> 69cb562053c29ea7bcd81442164754fa172e4268
 }
