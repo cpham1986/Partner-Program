@@ -9,12 +9,13 @@ import java.util.*;
 public class main
 {
     public static void main(){
-        double start, tgames, sgames, shots, scored;
+        
         Scanner input = new Scanner(System.in);
         String name, sport;
-        Sports player = new Sports("");
+        Sports player = new Sports("");;
         System.out.println("Enter the name of the athlete: ");
         name=input.nextLine();
+
 
         do{
             System.out.println("Enter sport: ");
@@ -25,28 +26,9 @@ public class main
             case "football": player = new Football(name);break;
             case "basketball":player = new BasketBall(name);break;
         }
-
         
-        System.out.println("Enter number of games started: ");
-        start=input.nextDouble();
-        System.out.println("Entered total number of games played in: ");
-        tgames=input.nextDouble();
-        System.out.println("Enter the total games in the season: ");
-        sgames=input.nextDouble();
-        System.out.println("Enter total number of scoring attempts: ");
-        shots=input.nextDouble();
-        System.out.println("Enter total number points scored: ");
-        scored=input.nextDouble();
-
-        System.out.println("Started in "+player.getAvg(start, sgames));
-        System.out.println("Played in "+player.getAvg(tgames, sgames));
-        System.out.println("Scoring percentage: "+player.getAvg(shots, scored));
-
-        System.out.println("Started in "+player.getAvg(start, sgames)+"%");
-        System.out.println("Played in "+player.getAvg(tgames, sgames)+"%");
-        System.out.println("Scoring percentage: "+player.getAvg(scored, shots)+"%");
+        player.questions1();
         
-        
-        player.print();
+       
     }
 }

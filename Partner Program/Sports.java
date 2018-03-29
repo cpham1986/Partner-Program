@@ -9,6 +9,7 @@ import java.util.*;
 public class Sports
 {
     String n, s;
+    double start, tgames, sgames, shots, scored;
     double temp;
     int AVG, penalty, ps;
     Scanner input=new Scanner(System.in);
@@ -30,8 +31,24 @@ public class Sports
     {
         return ps;
     }
-    public void print(){
-        
+    public void questions1()
+    {
+        System.out.println("Enter number of games started: ");
+        start=input.nextDouble();
+        System.out.println("Entered total number of games played in: ");
+        tgames=input.nextDouble();
+        System.out.println("Enter the total games in the season: ");
+        sgames=input.nextDouble();
+        System.out.println("Enter total number of scoring attempts: ");
+        shots=input.nextDouble();
+        System.out.println("Enter total number points scored: ");
+        scored=input.nextDouble();
     }
     
+    public void print1(){
+         System.out.println("Started in "+getAvg(start, sgames)+"%");
+        System.out.println("Played in "+getAvg(tgames, sgames)+"%");
+        System.out.println("Scoring percentage: "+getAvg(scored, shots)+"%");
+
+    }
 }
