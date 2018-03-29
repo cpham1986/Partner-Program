@@ -9,6 +9,7 @@ import java.util.*;
 public class Sports
 {
     String n, s;
+    double temp;
     int AVG, penalty, ps;
     Scanner input=new Scanner(System.in);
     /**
@@ -19,10 +20,12 @@ public class Sports
         n = name;
         s = sport.toLowerCase();
     }
-    public int getAvg(int attempt, int total)
+    public double getAvg(double attempt, double total)
     {
-        AVG=(int)(attempt/total);
-        return AVG;
+        temp=(double)(attempt/total);
+        temp*=100;
+        AVG=(int)temp;
+        return temp;
     }
     public int PartScore(int assist, int score)
     {
