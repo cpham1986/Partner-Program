@@ -12,7 +12,7 @@ public class main
         
         Scanner input = new Scanner(System.in);
         String name, sport;
-        Sports player = new Sports("");;
+        
         System.out.println("Enter the name of the athlete: ");
         name=input.nextLine();
 
@@ -20,14 +20,23 @@ public class main
         do{
             System.out.println("Enter sport: ");
             sport=input.nextLine();
-        } while(sport.equalsIgnoreCase("hockey")!=true);
-        switch(sport){
-            case "hockey": player= new Hockey(name);break;
-            case "football": player = new Football(name);break;
-            case "basketball":player = new BasketBall(name);break;
+        } while(sport.equalsIgnoreCase("hockey")!=true || sport.equalsIgnoreCase("football")!=true||sport.equalsIgnoreCase("Basketball")!=true);
+        if(sport.equalsIgnoreCase("hockey")==true){
+             Hockey player= new Hockey(name);
+             player.questions();
+             player.print();
+        } else if(sport.equalsIgnoreCase("football")==true){
+            Football player = new Football(name);
+            player.questions();
+            player.print();
+        } else {
+            BasketBall player = new BasketBall(name);
+            player.questions();
+            player.print();
         }
         
-        player.questions1();
+        
+     
         
        
     }
