@@ -30,6 +30,8 @@ public class Sports
     {
         return ps;
     }
-    
+    public void print(){
+        
+    }
     
 }

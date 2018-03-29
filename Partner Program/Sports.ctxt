@@ -7,4 +7,6 @@ comment2.params=attempt\ total
 comment2.target=double\ getAvg(double,\ double)
 comment3.params=assist\ score
 comment3.target=int\ PartScore(int,\ int)
-numComments=4
+comment4.params=
+comment4.target=void\ print()
+numComments=5
