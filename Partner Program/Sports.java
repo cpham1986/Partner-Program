@@ -15,10 +15,9 @@ public class Sports
     /**
      * Constructor for objects of class Sports
      */
-    public Sports(String name, String sport)
+    public Sports(String name)
     {
         n = name;
-        s = sport.toLowerCase();
     }
     public double getAvg(double attempt, double total)
     {
