@@ -13,28 +13,26 @@ public class Football extends Sports
     /**
      * Constructor for objects of class Football
      */
-    public Football(String x, String y)
+    public Football(String x)
     {
-        super(x,y);
+        super(x);
     }
 
 
     public void questions()
     {
-        System.out.print("Enter total number of touchdowns: ");
+        System.out.print("Enter total number of touchdowns");
         touchdowns = input.nextInt();
-        System.out.print("Enter number of yards gained: ");
+        System.out.print("Enter number of yards gained");
         yards = input.nextInt();
-<<<<<<< HEAD
 
-=======
->>>>>>> d1c1fde59abb03eb402bd13fa4e7e6f0cbfb7d33
     }
     
-    public void print(){
+    public void print(double total){
         System.out.print("Total number of touchdowns: " + touchdowns);
-        System.out.print("Total number of yards gained: " + yards);
-        //String.format("%.1g%n", 0.912385);
+        System.out.println("Total number of yards: " + yards);
+        System.out.println("Number of touchdowns per game: "+getAvg(touchdowns, total));
+        System.out.println("Number of yards per game: "+getAvg(yards, total));
     }
 
 }

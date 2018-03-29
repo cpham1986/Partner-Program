@@ -13,9 +13,9 @@ public class BasketBall extends Sports
     /**
      * Constructor for objects of class BasketBall
      */
-    public BasketBall(String x, String y)
+    public BasketBall(String x)
     {
-        super(x,y);
+        super(x);
         // initialise instance variables
     }
 
@@ -26,15 +26,21 @@ public class BasketBall extends Sports
         dunks = input.nextInt();
         System.out.print("Enter total number of blocks");
         blocks = input.nextInt();
+<<<<<<< HEAD
         v2 = input.nextInt();
         System.out.print("Enter total number of blocks: ");
         blocks = input.nextInt();
         System.out.print("some questions about basketball goes here");
         v3 = input.nextInt();
+=======
+>>>>>>> 69478c9711929dce6f27bc4fb6d3b42ce80d5c9a
     }
     
-    public void print(){
-        System.out.print("print the thing");
+    public void print(double total){
+         System.out.println("Total number of dunks: " + dunks);
+          System.out.println("Total number of blocks: " + blocks);
+         System.out.println("Number of dunks per game: "+getAvg(dunks, total));
+         System.out.println("Number of blocks per game: "+getAvg(blocks, total));
     }
 
 }

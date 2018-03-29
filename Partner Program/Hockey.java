@@ -13,9 +13,9 @@ public class Hockey extends Sports
     /**
      * Constructor for objects of class Hockey
      */
-    public Hockey(String x, String y)
+    public Hockey(String x)
     {
-        super(x,y);
+        super(x);
     }
 
     public void questions()
@@ -26,7 +26,10 @@ public class Hockey extends Sports
         checks = input.nextInt();
     }
     
-    public void print(){
-        System.out.print("print the thing");
+    public void print(double total){
+         System.out.println("Total number of assists: " + assists);
+          System.out.println("Total number of checks: " + checks);
+         System.out.println("Number of assists per game: "+getAvg(assists, total));
+         System.out.println("Number of checks per game: "+getAvg(checks, total));
     }
 }
