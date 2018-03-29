@@ -16,7 +16,6 @@ public class main
         System.out.println("Enter the name of the athlete: ");
         name=input.nextLine();
 
-
         do{
             System.out.println("Enter sport: ");
             sport=input.nextLine();
@@ -26,8 +25,7 @@ public class main
             case "football": player = new Football(name);break;
             case "basketball":player = new BasketBall(name);break;
         }
-        
-        
+
         
         System.out.println("Enter number of games started: ");
         start=input.nextDouble();
@@ -39,10 +37,16 @@ public class main
         shots=input.nextDouble();
         System.out.println("Enter total number points scored: ");
         scored=input.nextDouble();
-        
+
+        System.out.println("Started in "+player.getAvg(start, sgames));
+        System.out.println("Played in "+player.getAvg(tgames, sgames));
+        System.out.println("Scoring percentage: "+player.getAvg(shots, scored));
+
         System.out.println("Started in "+player.getAvg(start, sgames)+"%");
         System.out.println("Played in "+player.getAvg(tgames, sgames)+"%");
         System.out.println("Scoring percentage: "+player.getAvg(scored, shots)+"%");
-
+        
+        
+        player.print();
     }
 }

@@ -21,15 +21,20 @@ public class Football extends Sports
 
     public void questions()
     {
-        System.out.print("Enter total number of touchdowns");
+        System.out.print("Enter total number of touchdowns: ");
         touchdowns = input.nextInt();
-        System.out.print("Enter number of yards gained");
+        System.out.print("Enter number of yards gained: ");
         yards = input.nextInt();
+<<<<<<< HEAD
 
+=======
+>>>>>>> d1c1fde59abb03eb402bd13fa4e7e6f0cbfb7d33
     }
     
     public void print(){
-        System.out.print("print the thing");
+        System.out.print("Total number of touchdowns: " + touchdowns);
+        System.out.print("Total number of yards gained: " + yards);
+        //String.format("%.1g%n", 0.912385);
     }
 
 }
