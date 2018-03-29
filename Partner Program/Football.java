@@ -8,15 +8,16 @@
 public class Football extends Sports
 {
     // instance variables - replace the example below with your own
-    private int touchdowns, yards, v3;
+    private int touchdowns, yards;
 
     /**
      * Constructor for objects of class Football
      */
-    public Football(String x)
+    public Football(String x, String y)
     {
-        super(x);
+        super(x,y);
     }
+
 
     public void questions()
     {
@@ -24,8 +25,7 @@ public class Football extends Sports
         touchdowns = input.nextInt();
         System.out.print("Enter number of yards gained");
         yards = input.nextInt();
-        System.out.print("some questions about football goes here");
-        v3 = input.nextInt();
+
     }
     
     public void print(){
