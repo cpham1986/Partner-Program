@@ -46,6 +46,5 @@ public class main
         System.out.println("Started in "+player.getAvg(start, sgames));
         System.out.println("Played in "+player.getAvg(tgames, sgames));
         System.out.println("Scoring percentage: "+player.getAvg(shots, scored));
-
     }
 }

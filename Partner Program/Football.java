@@ -24,12 +24,12 @@ public class Football extends Sports
         touchdowns = input.nextInt();
         System.out.print("Enter number of yards gained");
         yards = input.nextInt();
-        System.out.print("some questions about football goes here");
-        v3 = input.nextInt();
     }
     
     public void print(){
         System.out.print("print the thing");
+        //String.format("%.1g%n", 0.912385);
+        
     }
 
 }
